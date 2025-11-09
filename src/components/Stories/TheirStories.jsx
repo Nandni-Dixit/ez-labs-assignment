@@ -4,7 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import paperNote from '../../assets/paper-note.png';
 import clip from '../../assets/clip.png';
 import gate from '../../assets/Gate.png';
-import people from '../../assets/people.png';
+import people from '../../assets/People.png';
 import arrow1 from '../../assets/arrow-gate.svg';
 import arrow2 from '../../assets/arrow-film.svg';
 import arrow3 from '../../assets/arrow-art.svg';
