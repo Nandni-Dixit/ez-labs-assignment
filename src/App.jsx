@@ -17,18 +17,19 @@ function HomePage() {
   return (
     <>
       <Hero />
+      <section id="stories">
+        <TheirStories />
+      </section>
+      <section id="our-story">
+        <OurStories />
+        </section>
       <section id="services">
         <Services />
       </section>
       <section id="varnan">
         <Portfolio /> 
       </section>
-      <section id="stories">
-        <TheirStories />
-      </section>
-      <section id="our-story">
-        <OurStories />
-      </section>
+      
       <section id="contact">
         <ContactForm />
       </section>
