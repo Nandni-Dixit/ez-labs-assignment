@@ -1,0 +1,150 @@
+/* src/components/Stories/TheirStories.css */
+
+.stories-section {
+  padding: 6rem 4rem;
+  min-height: 100vh;
+  overflow-x: hidden; 
+}
+
+/* --- Left Column --- */
+
+.paper-note-wrapper {
+  position: relative;
+  margin-top: 2rem;
+  width: fit-content; 
+  
+  margin-left: 150px;
+  transform: rotate(-7deg); 
+  transform-origin: top left;
+  box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.clip-img {
+  position: absolute;
+  top: -30px;  
+  left: 350px; 
+  width: 50px;
+  z-index: 10; 
+}
+
+.paper-note-img {
+  width: 100%;
+  max-width: 400px;
+ 
+}
+
+.paper-note-text {
+  position: absolute;
+  top: 10px;  
+  left: 40px; 
+  max-width: 320px; 
+  z-index: 5;
+ 
+  
+  font-family: 'Halant', serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #0F3255; 
+  line-height: 1.4;
+}
+.paper-note-text p {
+  margin-bottom: 1.2rem; 
+}
+
+
+
+.gate-wrapper {
+  position: relative;
+  margin-top: 2rem;
+  width: fit-content;
+}
+
+.gate-img {
+  width: 100%;
+  max-width: 400px; 
+  margin-left: 150px;
+}
+
+.arrow-gate {
+  position: absolute;
+  top: 10px;
+  left: 600px;
+  width: 150px;
+}
+
+.label-gate {
+  position: absolute;
+  top: 180px;
+  left: 510px;
+  font-family: 'Island Moments', cursive; 
+  font-size: 2rem;
+  color: #555;
+  font-weight: 600;
+}
+
+/* --- Right Column --- */
+
+.people-wrapper {
+  position: relative;
+  margin-top: 4rem;
+  text-align: center; 
+}
+
+.people-img {
+  width: 100%;
+  max-width: 600px; 
+}
+
+.arrow-film {
+  position: absolute;
+  top: -70px;
+  left: 35%;
+  width: 100px;
+}
+
+.label-film {
+  position: absolute;
+  top: -120px;
+  left: 20%;
+  font-family: 'Island Moments', cursive; 
+  font-size: 2rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.arrow-art {
+  position: absolute;
+  top: 6%;
+  right: 20px;
+  width: 120px;
+}
+
+.label-art {
+  position: absolute;
+  top: -8%;
+  right: -10px;
+  font-family: 'Island Moments', cursive; 
+  font-weight: 600;
+  font-size: 2rem;
+  color: #555;
+}
+
+
+.stories-footer {
+  margin-top: 5rem;
+}
+
+.stories-footer h2 {
+  font-family: 'Halant', serif; 
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.portfolio-btn {
+  background-color: #E85A4F !important; 
+  border: none !important;
+  border-radius: 25px !important; /* Pill shape */
+  font-weight: bold;
+  padding: 10px 30px;
+}

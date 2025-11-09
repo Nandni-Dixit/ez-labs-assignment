@@ -1,0 +1,69 @@
+
+.top-bar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 4rem; 
+  z-index: 1030; 
+  background-image: url('/navbar-bg.png'); 
+  background-repeat: repeat;
+  background-size: auto;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar-logo {
+  height: 40px; 
+  width: auto;
+}
+
+.open-menu-wrapper {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+
+
+.menu-button, .close-button,
+.menu-button:focus, .close-button:focus,
+.menu-button:active, .close-button:active {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important; 
+  outline: none !important;
+}
+
+.menu-button img, .close-button img {
+  height: 35px; 
+  width: auto;
+}
+
+.nav-link-custom {
+  font-family: 'Instrument Sans', sans-serif;; 
+  color: #333 !important; 
+  font-weight: 500;
+  margin: 0 10px;
+  font-size: 1.1rem;
+}
+.nav-link-custom:hover {
+  color: #E85A4F !important;
+}
+
+.lets-talk-btn,
+.lets-talk-btn:focus,
+.lets-talk-btn:active {
+  background-color: #E85A4F !important; 
+  border: none !important;
+  border-radius: 20px !important;
+  font-weight: bold;
+  padding: 10px 20px;
+  box-shadow: none !important;
+}
+
+.mail-icon{
+    padding: 0px 10px;
+}

@@ -1,0 +1,65 @@
+
+
+.hero-section {
+  min-height: 100vh;
+  padding: 2rem 4rem;
+}
+
+.logo-stack {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-background {
+ 
+  max-width: 400px; 
+  width: 100%; 
+  height: auto;
+}
+
+.logo-foreground {
+  position: absolute; 
+  
+  width: 60%; 
+  height: auto;
+}
+
+
+.hero-text-column {
+
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  .hero-text-column {
+    text-align: center;
+  }
+}
+
+.hero-headline {
+  font-family: 'Island Moments', cursive;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 1.2; 
+  color: #0F3255;
+  margin-bottom: 1.5rem;
+}
+
+.hero-sublinks {
+  
+  font-family: 'Halant', serif; 
+  font-size: 2rem;
+  color: #E85A4F; 
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.hero-paragraph {
+  
+  font-family: 'Instrument Sans', sans-serif; 
+  font-size: 1rem;
+  line-height: 1.7;
+}
